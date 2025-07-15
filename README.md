@@ -1,16 +1,81 @@
-## Instruction
+Digital Police — Online Complaint Management System
 
-Clone using `git clone https://github.com/b14ck0ps/e-Complaint.git`
-Go to the folder, copy `.env.example` and rename it to `.env`
-Then open PowerShell and run
+This project is a **web-based complaint reporting and monitoring system** developed for the course *Internet and Web Programming*. It enables victims and citizens to **file complaints online** while ensuring transparency, accountability, and ease of use for both the public and law enforcement.
+Its an web application for detecting and preventing crime and maintaining public order via online.
 
-    composer install
-    php artisan key:generate
-    php artisan migrate
-    php artisan storage:link
-    php artisan serve
+---
 
-\*If ask to create database when migrating, type `yes`
+## Developed By
+ 
+- Ehtasimul Hoque Nahid 
+- **Supervised by:Dr. Sajeeb Saha, Associate Professor  
+  Dept. of Computer Science and Engineering, Jagannath University
 
-Add Crime DataSet to This File: `./e-Complaint/public/js/data/Data.js`
-View Graph at `http://127.0.0.1:8000/archive`
+
+ Objectives
+
+- Allow citizens to file complaints online in a secure and accessible platform.
+- Help police departments manage and track complaints transparently.
+- Increase accountability and responsiveness in the complaint-handling process.
+
+---
+Scope of the System
+
+- Enhance internal police operations through digitalization.
+- Provide a centralized complaint tracking system.
+- Minimize manual processing and reduce influence from external pressure.
+- Support anonymous and regular complaint modes.
+
+---
+
+## Tech Stack
+
+Frontend:
+- HTML, CSS, JavaScript
+- Bootstrap CDN
+
+Backend:
+- PHP (Laravel Framework)
+
+Tools:
+- Visual Studio Code
+- XAMPP (Apache, PHP, MySQL)
+
+Database:
+- MySQL
+
+Platforms:
+- Linux Mint 20.3 / Windows 10
+
+---
+
+## Key Features
+
+- **User registration & login** for complainers
+- **Online complaint submission**
+- **Dashboards** for:
+  - Complainers
+  - Cyber Police
+  - Police Stations
+  - Quick Reaction Teams
+  - Police Headquarters
+  - Special Agents
+- **Case tracking & status updates**
+- **Anonymous complaint support**
+
+---
+
+
+## Screenshot
+<img width="992" height="750" alt="image" src="https://github.com/user-attachments/assets/c401e1db-e0cd-46dc-9d9c-e3a26e13a303" />
+<img width="1187" height="750" alt="image" src="https://github.com/user-attachments/assets/56b74f52-7aaf-41fe-92be-8da62cfc631f" />
+
+
+
+---
+
+## Conclusion
+
+The **Digital Police** system is a meaningful step toward improving police transparency and responsiveness in Bangladesh. By enabling citizens to file and track complaints online, the platform simplifies the process while strengthening public trust.
+
+---
